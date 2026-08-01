@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section className="grid grid-cols-2 gap-10 border-t border-b border-primary bg-neutral-dark pt-20 pb-20 pr-5 pl-5">
+                <section className="grid grid-cols-2 gap-10 border-t border-b border-primary bg-neutral-dark pt-20 pb-20 pr-5 pl-5 w-full">
                     <div>
 
                     </div>
