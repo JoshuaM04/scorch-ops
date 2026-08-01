@@ -1,5 +1,4 @@
 import Navigation from './components/Navigation';
-import SearchBar from './components/SearchBar';
 import Home from './pages/Home';
 import Batches from './pages/Batches';
 import Inventory from './pages/Inventory';
@@ -11,7 +10,6 @@ export default function app() {
   return (
     <div className="root-container flex min-h-dvh bg-neutral font-body">
       <Navigation />
-      <SearchBar />
 
       <Routes>
         <Route path="/" element={<Home />} />

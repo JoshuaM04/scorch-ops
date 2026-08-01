@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navigation() {
     const [activeId, setActiveId] = useState(1);
-    const activeStyle = "bg-primary border-2 border-white mobile:shadow-[5px_5px] mobile:shadow-red-500";
+    const activeStyle = "bg-primary border-2 border-primary-light mobile:shadow-[5px_5px] mobile:shadow-red-500";
     const mobileStyle = "max-mobile:w-20 max-mobile:flex-col max-mobile:justify-center max-mobile:items-center max-mobile:p-2 max-mobile:w-min max-mobile:gap-0"
 
     const handleButton = (id: number) => {
@@ -11,9 +11,9 @@ export default function Navigation() {
     }
 
     return (
-        <div className="navigation-component flex flex-col gap-10 mobile:border-r mobile:border-primary p-5 mobile:min-h-dvh min-w-60 max-mobile:w-full max-mobile:absolute max-mobile:bottom-5 max-mobile:border-t-2 max-mobile:border-white">
-            <section className="capitalize text-primary-light max-mobile:hidden max-mobile:aria-hidden">
-                <p className="text-primary text-4xl uppercase font-bold font-headline">scorch ops</p>
+        <div className="navigation-component flex flex-col gap-10 mobile:border-r mobile:border-primary p-5 mobile:min-h-dvh min-w-65 max-mobile:w-full max-mobile:absolute max-mobile:bottom-5 max-mobile:border-t-2 max-mobile:border-white">
+            <section className="capitalize font-label text-primary-light max-mobile:hidden max-mobile:aria-hidden">
+                <p className="text-primary text-3xl uppercase font-bold font-headline">scorch ops</p>
                 <p>unit 01 - small batch</p>
                 <p>extraction</p>
             </section>
