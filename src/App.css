@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@100..900&family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto+Slab:wght@100..900&family=Share+Tech&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #D32F2F;
+  --color-secondary: #F57C00;
+  --color-tertiary: #FBC02D;
+  --color-neutral: #212121;
+
+  --font-headline: "Anton", sans-serif;
+  --font-body: "Archivo Narrow", sans-serif;
+  --font-label: "JetBrains Mono", monospace;
+}
