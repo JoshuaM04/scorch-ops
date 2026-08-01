@@ -1,4 +1,5 @@
 import Navigation from './components/Navigation';
+import SearchBar from './components/SearchBar';
 import Home from './pages/Home';
 import Batches from './pages/Batches';
 import Inventory from './pages/Inventory';
@@ -8,8 +9,9 @@ import { Routes, Route } from 'react-router-dom';
 
 export default function app() {
   return (
-    <div className="root-container min-h-dvh bg-neutral font-body">
+    <div className="root-container flex min-h-dvh bg-neutral font-body">
       <Navigation />
+      <SearchBar />
 
       <Routes>
         <Route path="/" element={<Home />} />

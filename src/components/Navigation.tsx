@@ -11,9 +11,9 @@ export default function Navigation() {
     }
 
     return (
-        <div className="navigation-component flex flex-col gap-10 mobile:border-r mobile:border-primary p-5 mobile:min-h-dvh w-60 max-mobile:w-full max-mobile:absolute max-mobile:bottom-5 max-mobile:border-t-2 max-mobile:border-white">
+        <div className="navigation-component flex flex-col gap-10 mobile:border-r mobile:border-primary p-5 mobile:min-h-dvh min-w-60 max-mobile:w-full max-mobile:absolute max-mobile:bottom-5 max-mobile:border-t-2 max-mobile:border-white">
             <section className="capitalize text-primary-light max-mobile:hidden max-mobile:aria-hidden">
-                <p className="text-primary text-4xl font-bold font-headline">scorch ops</p>
+                <p className="text-primary text-4xl uppercase font-bold font-headline">scorch ops</p>
                 <p>unit 01 - small batch</p>
                 <p>extraction</p>
             </section>
