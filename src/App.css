@@ -4,7 +4,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #D32F2F;
+  --color-primary: #FF544E;
+  --color-primary-light: #FFB3AC;
   --color-secondary: #F57C00;
   --color-tertiary: #FBC02D;
   --color-neutral: #212121;
