@@ -57,7 +57,7 @@ export default function Navigation() {
                 </section>
             </div>
 
-            <button className="text-white uppercase text-sm font-label font-bold bg-primary pt-3 pb-3 border-2 border-white shadow-[5px_5px] shadow-primary hover:cursor-pointer">
+            <button className="text-white uppercase text-sm font-label font-bold bg-primary pt-3 pb-3 border-2 border-primary-light shadow-[5px_5px] shadow-primary hover:cursor-pointer">
                 emergency cool down
             </button>
         </div>

@@ -26,7 +26,7 @@ export default function SearchBar() {
                     </svg>
                 </button>
 
-                <button className="text-white uppercase font-label bg-primary border border-primary-light pt-2 pb-2 w-33 hover:cursor-pointer">
+                <button className="text-white uppercase font-label bg-primary border-2 border-primary-light pt-2 pb-2 w-33 hover:cursor-pointer">
                     cool down
                 </button>       
             </section>

@@ -6,8 +6,8 @@ export default function Home() {
         <div className="home-component flex flex-col gap-30 min-h-dvh w-full">
             <SearchBar />
 
-            <div id="body" className="flex flex-col gap-20 h-full">
-                <section id="heading-container" className="flex flex-col gap-10 p-5">
+            <div id="body" className="flex flex-col items-center gap-20 h-full">
+                <section id="heading-container" className="flex flex-col gap-10 p-5 w-full">
                     <div className="flex flex-col gap-5">
                         <p className="uppercase font-label bg-primary-light pt-1 pb-1 pr-4 pl-4 w-fit">status: combat ready</p>
                         
@@ -80,7 +80,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section className="flex flex-col gap-10 p-5">
+                <section className="flex flex-col gap-10 p-5 max-w-240">
                     <div className="flex justify-between items-end gap-5">
                         <h2 className="text-white text-4xl uppercase font-headline flex flex-col">
                             <span className="text-base text-primary-light font-label">ordnance catalog</span>
@@ -90,7 +90,7 @@ export default function Home() {
                         <p className="text-primary-light uppercase font-label">current inventory: 3 variants</p>
                     </div>
 
-                    <div className="flex justify-between gap-5">
+                    <div className="flex justify-between gap-10">
                         <div className="flex flex-col justify-between gap-10 border border-primary p-5 w-70">
                             <div className="flex justify-between">
                                 <p></p>
@@ -195,7 +195,7 @@ export default function Home() {
                     </div>
                 </section>
 
-                <section className="flex flex-col justify-center items-center gap-10 pt-20 pb-20 pr-5 pl-5 border-t-2 border-b-2 border-primary bg-neutral-light">
+                <section className="flex flex-col justify-center items-center gap-10 pt-20 pb-20 pr-5 pl-5 border-t-2 border-b-2 border-primary bg-neutral-light w-full">
                     <h2 className="text-white text-4xl uppercase font-headline">join the unit</h2>
                     
                     <p className="text-center text-primary-light w-180">
