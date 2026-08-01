@@ -9,6 +9,8 @@
   --color-secondary: #F57C00;
   --color-tertiary: #FBC02D;
   --color-neutral: #212121;
+  --color-neutral-light: #303030;
+  --color-neutral-dark: #0d0a0a;
 
   --font-headline: "Anton", sans-serif;
   --font-body: "Archivo Narrow", sans-serif;
